@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Sora', sans-serif;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+.limitacao{
+  width: 1280px;
+  max-width: 1280px;
+  
+}
+
+/*Menu-Principal*/
+.navibar{
+  width: 1280px;
+  height: 50px;
+  background: transparent;
+  position: absolute;
+  z-index: 10;
+}
+
+
+.box-menu{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 14px;
+  margin-right: 95px;
+  list-style: none;
+  transition: .3s;
+}
+
+.titulo-menu{
+  font-family: 'Sora', sans-serif;
+  font-weight: bold;
+  margin-left: 18px;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: .6s;
+}
+.titulo-menu:hover{
+  background: rgb(189, 189, 189);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5 );
+}
+
+.box-menu li a{
+  color: rgb(0, 0, 0);
+}
+.box-menu li a:visited{
+  color: rgb(0, 0, 0);
+}
+.box-menu li a{
+  text-decoration: none;
+}
+
+/*Conteudo Principal*/
+hr{
+  width: 240px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.conteudo-principal{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+}
+.conteudo-princ-01{
+  display: flex;
+  overflow: hidden;
+}
+
+.pricipal-conteudo{
+  width: 1150px;
+  height: 384px;
+}
+#img-carro-conteudo-01{
+  width: 535px;
+  height: 384px;
+  object-fit: cover;
+}
+
+.descricao-conteudo-01{
+  margin-left: 50px;
+  width: 523px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.titulo-conteudo-02{
+  font-family: 'Sora';
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.paragrafo-conteudo-02{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 14px;
+  transition: .6s;
+}
+.paragrafo-conteudo-02:hover{
+  color: rgba(0, 0, 0, 0.699);
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5 );
+}
+
+
+.preco-conteudo-02 p{
+  font-weight: bold;
+  font-size: 24px;
+  padding-right: 20px;
+}
+.preco-conteudo-02{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn-conteudo-02{
+  display: inline-block;
+  background: #178414;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: background .6s;
+}
+.btn-conteudo-02:link{
+  color: rgb(255, 255, 255);
+}
+.btn-conteudo-02:visited{
+  color: rgb(255, 255, 255);
+}
+.btn-conteudo-02:hover{
+  background: #0d470a;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5 );
+}
+
+/*conteudo-02*/
+
+.ticket-02{
+  flex-direction: row-reverse;
+  padding-top: 20px;
+}
+.descricao-conteudo-02{
+  margin-right: 50px;
+  width: 523px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ticket-03{
+  padding-top: 20px;
+}
+
+/*Rodape*/
+.rodape{
+  width: 100%;
+  height: 280px;
+  background: #C4C4C4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+  font-size: 100%;
+  font-family: 'Sora', sans-serif;
+}
+.container-rodape p a{
+  color: black;
+}
+.teste h3 a:visited{
+  color: black;
+}
+.teste h3 a:link{
+  color: black;
+}
+
+.teste{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.teste >img{
+  width: 60%;
+  height: 60%;
+}
