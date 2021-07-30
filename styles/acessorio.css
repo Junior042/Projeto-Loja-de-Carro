@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Sora';
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+.limitacao{
+  width: 1280px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+/*Menu*/
+
+
+.navibar{
+  width: 1280px;
+  height: 50px;
+  position: fixed;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.61)
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+}
+.menu h3{
+  font-family: 'Oswald', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 34px;
+  padding-left: 24px;
+}
+
+.box-menu{
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  list-style: none;
+  transition: .3s;
+}
+
+.titulo-menu{
+  font-family: 'Sora', sans-serif;
+  font-weight: bold;
+  margin-left: 18px;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: .6s;
+}
+.titulo-menu:hover{
+  background: rgb(189, 189, 189);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5 );
+  text-shadow: 0px 2px 4px rgba(0, 0, 0,0.5 );
+}
+
+.box-menu li a{
+  color: rgb(255, 255, 255);
+}
+.box-menu li a:visited{
+  color: rgb(255, 255, 255);
+}
+
+
+.box-menu li a{
+  text-decoration: none;
+}
+
+/*Imagem 01*/
+
+.imagem-01{
+  width: 1280px;
+  height: 100vh;
+  background: rgba( 0, 0, 0,0.5 ) url(../img/4.svg)  no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-imagem-01{
+  color: white;
+}
+
+#titulo-imagem-01{
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 61px;
+}
+.paragrafo-imagem-01{
+  font-family: 'Sora' sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  margin: 20px 0px;
+  color: rgba(255, 255, 255, 0.51);
+  text-shadow: 0px 2px 4px black;
+}
+
+/*tickets*/
+.container-grade-01{
+    background: #c4c4c4;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#titulo-paragrafo-grade{
+  font-weight: bold;
+  font-size: 36px;
+}
+.tickets-grade{
+  border-top: 2px solid #000000;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0rem 6.5rem;
+}
+
+.ticket-container{
+  width: 295px;
+  height: 543px;
+  margin-top: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ticket-container img{
+  width: 100%;
+  height: 291px;
+}
+.ticket-container hr{
+  width: 200px;
+  height: 0px;
+  border: 1px solid rgba(115, 115, 115, 0.81);
+}
+.titulo-ticket-01{
+  color: #FFFFFF;
+  font-size: 24px;
+}
+.paragrafo-ticket-01{
+  width: 284px;
+  height: 72px;
+  font-size: 14px;
+  color: #ffffff9d;
+  padding-top: 6px;
+}
+
+
+
+/*Botão*/
+.btn{
+  border: none;
+  background: #178414;
+  display: inline-block;
+  padding: 15px 10px 15px 10px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: 'Sora';
+  border-radius: 6px;
+  transition: background .6s;
+}
+.btn:hover{
+  background: #135e11;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5 );
+}
+.preco-ticket p{
+  color: #000000;
+  transition: color .6s;
+}
+.preco-ticket p:hover{
+  color: rgb(179, 179, 179);
+  text-shadow: 0px 2px 4px rgb(0, 0, 0);
+}
+
+.preco-ticket{
+  display: flex;
+  align-items: center;
+  gap: 79px;
+  padding: 90px 30px 10px 10px;
+}
+
+/*Rodape*/
+.rodape{
+  width: 100%;
+  height: 280px;
+  background: #C4C4C4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.container-rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+  font-size: 100%;
+  font-family: 'Sora', sans-serif;
+}
+.container-rodape p a{
+  color: black;
+}
+.teste h3 a:visited{
+  color: black;
+}
+.teste h3 a:link{
+  color: black;
+}
+
+.teste{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.teste >img{
+  width: 60%;
+  height: 60%;
+}

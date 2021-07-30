@@ -25,13 +25,21 @@ a:visited{
   z-index: 10;
 }
 
+.menu{
+  display: flex;
+  justify-content: space-between;
+}
+.menu h3{
+  font-family: 'Oswald', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 34px;
+  padding-left: 24px;
+}
 
 .box-menu{
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  padding-top: 14px;
-  margin-right: 95px;
+  margin-right: 40px;
   list-style: none;
   transition: .3s;
 }
@@ -75,6 +83,7 @@ hr{
 .conteudo-princ-01{
   display: flex;
   overflow: hidden;
+  margin-top: 15px;
 }
 
 .pricipal-conteudo{

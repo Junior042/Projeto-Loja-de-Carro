@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Sora';
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+.limitacao{
+  width: 1280px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+/*Menu*/
+
+
+.navibar{
+  width: 1280px;
+  height: 50px;
+  position: fixed;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.61)
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+}
+.menu h3{
+  font-family: 'Oswald', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 34px;
+  padding-left: 24px;
+}
+
+.box-menu{
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  list-style: none;
+  transition: .3s;
+}
+
+.titulo-menu{
+  font-family: 'Sora', sans-serif;
+  font-weight: bold;
+  margin-left: 18px;
+  display: block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: .6s;
+}
+.titulo-menu:hover{
+  background: rgb(189, 189, 189);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5 );
+  text-shadow: 0px 2px 4px rgba(0, 0, 0,0.5 );
+}
+
+.box-menu li a{
+  color: rgb(255, 255, 255);
+}
+.box-menu li a:visited{
+  color: rgb(255, 255, 255);
+}
+
+
+.box-menu li a{
+  text-decoration: none;
+}
+
+/*Imagem 01*/
+
+.imagem-01{
+  width: 1280px;
+  height: 100vh;
+  background: rgba( 0, 0, 0,0.5 ) url(../img/2.png)  no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-imagem-01{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texto-imagem-01{
+  color: white;
+  margin-bottom: 204px;
+  margin-right: 67px;
+  transition: .6s;
+}
+.imagem-02{
+  background: url(../img/Produtos/1.png)  no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 487px;
+  height: 468px;
+  margin-top: 146px;
+  transition: .6s;
+}
+#titulo-imagem-01{
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 61px;
+}
+.paragrafo-imagem-01{
+  font-family: 'Sora' sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  margin: 20px 0px;
+  color: rgba(255, 255, 255, 0.51);
+}
+.texto-imagem-01:hover{
+  text-shadow: 0px 2px 4px rgb(0, 0, 0);
+}
+
+/*Ticket de Produtos*/
+.img-bonita{
+  object-fit: cover;
+}
+
+
+.container-tickets{
+  width: 100%;
+  height: 578px;
+  margin: 44px 0px;
+  margin: 44px 0px 0px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ticket-01{
+  width: 344px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 6px;
+}
+.tracinho-ticket{
+  width: 100%;
+  height: 14px;
+  background: rgba(23, 132, 20, 0.8);
+  border-radius: 6px 6px 0px 0px;
+}
+.img-ticket-01{
+  width: 320px;
+  height: 300px;
+  margin-top: 10px;
+}
+.container-02-ticket-01{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-02-ticket-01 hr{
+  width: 310px;
+  height: 0px;
+  border: 1px solid #8B8282;
+}
+.titulo-ticket-01{
+  font-family: 'Sora';
+  font-weight: 300;
+  font-size: 36px;
+  color: #ffffff;
+}
+.paragrafo-ticket-01{
+  font-family: 'Sora';
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffffc5;
+  width: 321px;
+  height: 72px;
+  margin-top: 24px;
+}
+
+/*Botão*/
+.btn-comprar-ticket-01{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.btn-comprar-ticket-01 p{
+  margin: 0px 10px 10px 0px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.btn-comprar-01{
+  display: inline-block;
+  background: #178414;
+  padding: 15px 6px;
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  border-radius: 3px;
+  font-family: 'Sora';
+  font-weight: 300;
+  margin: 36px 0px 10px 10px;
+  transition: .6s;
+}
+.btn-comprar-01:hover{
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5 );
+  background: #12660f;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-comprar-ticket-01 span a:link{
+  color: #ffffff;
+}
+.btn-comprar-ticket-01 span a:visited{
+  color: #ffffff;
+}
+
+/*Rodape*/
+.rodape{
+  width: 100%;
+  height: 280px;
+  background: #C4C4C4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.container-rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+  font-size: 100%;
+  font-family: 'Sora', sans-serif;
+}
+.container-rodape p a{
+  color: black;
+}
+.teste h3 a:visited{
+  color: black;
+}
+.teste h3 a:link{
+  color: black;
+}
+
+.teste{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.teste >img{
+  width: 60%;
+  height: 60%;
+}
